@@ -1,0 +1,24 @@
+name: CTimeShop
+version: 0.3
+author: Copola
+description: Plugin para Time Shop
+main: com.cshoptime.Main
+
+commands:
+  timeshop:
+    description: Comando de exemplo
+    usage: /viajante [argumento]
+    permission: meuplugin.usar
+    aliases:
+      - mc
+  viajante:
+    description: Comando de exemplo
+    usage: /viajante [argumento]
+    permission: meuplugin.usar
+    aliases:
+      - mc
+
+permissions:
+  meuplugin.usar:
+    description: Permite que os jogadores usem o comando /meucomando
+    default: true

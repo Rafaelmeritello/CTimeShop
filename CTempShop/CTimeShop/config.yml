@@ -1,0 +1,60 @@
+TituloShop: "Teste"
+Titulo_confirmacao: "&2Confirmacao compra <itemdisplay>"
+msg_player_compra: "&c Você comprou um item"
+sem_money: "&cSem money para comprar"
+msg_teleporte: "&ATeleportou ao viajante"
+tamanho_menu: 54
+economia: "yeconomias-token"
+Broadcast_compra: 
+   ativar: false
+   mensagem: "<player> Comprou no ctimeshop"
+
+broadcast_15m:
+   ativar: true
+   mensagem: "em 15 min <item_display> vai ser liberado no ctimeshop"
+broadcast_10m:
+   ativar: true
+   mensagem: "em 10 min <item_display> vai ser liberado no ctimeshop"
+broadcast_5m:
+   ativar: true
+   mensagem: "em 5 min <item_display> vai ser liberado no ctimeshop"
+
+menu_compra:
+   ItemAceitar: "35-5"
+   ItemRecusar: "35-14"
+   display_aceitar: "&a Aceitar compra <item_display>"
+   lore_aceitar:
+      - '&bComprar <item_display>'
+   display_recusar: "&ccancelar compra <item_display>"
+   lore_recusar:
+      - '&cCancelar compra <item_display>'
+ShopItens:
+   Item1:
+      Nome_display: "Teste"
+      id: 264
+      custom_head: 
+        ativar: false
+        base64: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThlNTIyNTE2ZTMxYTkxN2FhNmEwNDUxNDEwYTUwNTc2YTkzNDMwNWUyY2Y3ZmZiZTIyZTZhZmQ1OGQ4MmI0YSJ9fX0=
+      pos: 0
+      preco: 100
+      data_liberacao: "06/10/2023-22-14"
+      data_bloqueio: "12/12/2023-12-12"
+      estoque: 1
+      comandos:
+       - money give <player> 1000
+      lore:
+       - '&b Compre a key vip'
+       - '&cEstoque: <estoque>'
+       - 'Data bloqueio: <data_bloqueio>'
+       - 'hora bloqueio: <hora_bloqueio> '
+       - 'minuto bloqueio: <minuto_bloqueio>'
+      lore_expirado:
+       - 'Item Expirado'
+      lore_pendente:
+       - '&a aguarde a liberacao'
+       - '&c Data Liberação <data_liberacao>'
+       - '&c Hora liberacao: <hora_liberacao>'
+       - '&c Minuto liberacao: <minuto_liberacao>'
+       - 'restantes: <meses_restantes> meses <dias_restantes> dias <horas_restantes> horas <minutos_restantes> minutos' 
+      lore_esgotado:
+       - aguarde a liberacao
